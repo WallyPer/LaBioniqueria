@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1,
@@ -9,7 +9,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -29,7 +29,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
+
     .logo-container {
         width: 250px;
         height: 100%;
@@ -41,7 +41,7 @@ header {
         cursor: pointer;
         font-size: 20px;
         text-decoration: none;
-    }    
+    }
 
     .logo-container:hover {
         background-color: white;
@@ -54,7 +54,6 @@ header {
         margin-right: 10px;
     }
 }
-
 
 nav {
     height: 100%;
@@ -71,7 +70,6 @@ nav {
         padding-inline-start: 0;
     }
 }
-
 
 ul.navigation-menu li {
     background-color: #8e7aae;
@@ -99,7 +97,6 @@ ul.navigation-menu li a:hover {
     text-decoration: none;
     color: black;
 }
-
 
 h1.titulo-principal {
     position: absolute;
@@ -134,7 +131,6 @@ footer {
         margin-right: 10px;
     }
 }
-
 
 .red-social {
     height: 30px;
@@ -197,18 +193,12 @@ main.contacto-donde-estamos section.contacto {
     align-items: center;
     justify-content: center;
     overflow: auto;
-
 }
 
-main.contacto-donde-estamos section.contacto h2,
-main.contacto-donde-estamos section.donde-estamos h2 {
+main.contacto-donde-estamos section h2 {
     font-weight: lighter;
     letter-spacing: 1px;
     align-self: flex-start;
-}
-
-main.contacto-donde-estamos section.donde-estamos h2 {
-    margin-bottom: 5px;
 }
 
 main.contacto-donde-estamos section {
@@ -216,6 +206,16 @@ main.contacto-donde-estamos section {
     height: 100%;
     padding: 25px;
     box-sizing: border-box;
+
+    h2 {
+        font-weight: lighter;
+        letter-spacing: 1px;
+        align-self: flex-start;
+    }
+
+    &.donde-estamos h2, &.donde-estamos h2 {
+        margin-bottom: 5px;
+    }
 }
 
 .datos-de-contacto {
@@ -264,7 +264,7 @@ main.galeria {
 
 /*Productos*/
 main.productos {
-    background-color: #F0F0F0;
+    background-color: #f0f0f0;
     padding: 25px;
 }
 

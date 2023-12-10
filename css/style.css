@@ -187,15 +187,10 @@ main.contacto-donde-estamos section.contacto {
   overflow: auto;
 }
 
-main.contacto-donde-estamos section.contacto h2,
-main.contacto-donde-estamos section.donde-estamos h2 {
+main.contacto-donde-estamos section h2 {
   font-weight: lighter;
   letter-spacing: 1px;
   align-self: flex-start;
-}
-
-main.contacto-donde-estamos section.donde-estamos h2 {
-  margin-bottom: 5px;
 }
 
 main.contacto-donde-estamos section {
@@ -203,6 +198,14 @@ main.contacto-donde-estamos section {
   height: 100%;
   padding: 25px;
   box-sizing: border-box;
+}
+main.contacto-donde-estamos section h2 {
+  font-weight: lighter;
+  letter-spacing: 1px;
+  align-self: flex-start;
+}
+main.contacto-donde-estamos section.donde-estamos h2, main.contacto-donde-estamos section.donde-estamos h2 {
+  margin-bottom: 5px;
 }
 
 .datos-de-contacto {
@@ -251,7 +254,7 @@ main.galeria {
 
 /*Productos*/
 main.productos {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   padding: 25px;
 }
 
