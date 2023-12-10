@@ -235,11 +235,9 @@ main.contacto-donde-estamos section.donde-estamos h2, main.contacto-donde-estamo
   align-items: center;
   justify-items: center;
 }
-
 .lista-de-imagenes img {
   width: 100%;
 }
-
 .lista-de-imagenes img:hover {
   box-shadow: rgb(142, 122, 174) 0px 5px 20px;
   transform: scale(1.15);
@@ -279,29 +277,23 @@ main.productos {
   padding: 25px;
   box-sizing: border-box;
 }
-
 .producto img {
   width: 100%;
 }
-
 .producto span {
   align-self: flex-start;
   margin: 3px 0;
 }
-
 .producto .titulo {
   font-size: 25px;
 }
-
 .producto .precio {
   font-size: 20px;
   color: lightslategray;
 }
-
 .producto .talles {
   font-size: 13px;
 }
-
 .producto ul {
   list-style-type: none;
   padding-inline-start: 0;
@@ -314,7 +306,6 @@ main.productos {
   display: flex;
   flex-direction: row;
 }
-
 .lista-talles li {
   border: 1px solid lightgray;
   height: 30px;
@@ -326,7 +317,6 @@ main.productos {
   background-color: white;
   color: black;
 }
-
 .lista-talles li:hover {
   color: white;
   background-color: #8e7aae;
