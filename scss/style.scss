@@ -42,18 +42,19 @@ header {
         font-size: 20px;
         text-decoration: none;
     }    
+
+    .logo-container:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .logo-container img {
+        width: 70px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
 }
 
-header .logo-container:hover {
-    background-color: white;
-    color: black;
-}
-
-header .logo-container img {
-    width: 70px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
 
 nav {
     height: 100%;

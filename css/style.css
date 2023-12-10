@@ -42,12 +42,10 @@ header .logo-container {
   font-size: 20px;
   text-decoration: none;
 }
-
 header .logo-container:hover {
   background-color: white;
   color: black;
 }
-
 header .logo-container img {
   width: 70px;
   border-radius: 50%;
