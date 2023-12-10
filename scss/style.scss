@@ -222,17 +222,17 @@ main.contacto-donde-estamos section {
     display: flex;
     flex-direction: column;
     margin-top: 5px;
-}
 
-.datos-de-contacto .linea {
-    display: flex;
-    flex-direction: row;
-    margin: 3px 0;
-}
+    .linea {
+        display: flex;
+        flex-direction: row;
+        margin: 3px 0;
 
-.datos-de-contacto .linea .titulo {
-    font-weight: bold;
-    margin-right: 5px;
+        .titulo {
+            font-weight: bold;
+            margin-right: 5px;
+        }
+    }
 }
 
 /*Galeria*/

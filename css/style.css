@@ -213,13 +213,11 @@ main.contacto-donde-estamos section.donde-estamos h2, main.contacto-donde-estamo
   flex-direction: column;
   margin-top: 5px;
 }
-
 .datos-de-contacto .linea {
   display: flex;
   flex-direction: row;
   margin: 3px 0;
 }
-
 .datos-de-contacto .linea .titulo {
   font-weight: bold;
   margin-right: 5px;
