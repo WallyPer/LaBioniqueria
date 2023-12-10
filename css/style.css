@@ -56,7 +56,6 @@ nav {
   height: 100%;
   font-size: 20px;
 }
-
 nav ul.navigation-menu {
   display: flex;
   flex-direction: row;
@@ -119,12 +118,10 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
-
 footer .redes-sociales {
   display: flex;
   align-items: center;
 }
-
 footer .seguinos-en {
   margin-right: 10px;
 }
@@ -142,14 +139,13 @@ main {
   box-sizing: border-box;
   height: 100%;
 }
-
-/* Contacto*/
 main.contacto-donde-estamos {
   display: flex;
   flex-direction: row;
   padding: 25px;
 }
 
+/* Contacto*/
 .contacto form {
   display: flex;
   flex-direction: column;
