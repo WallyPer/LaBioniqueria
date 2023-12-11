@@ -304,7 +304,7 @@ main.contacto-donde-estamos section.donde-estamos h2, main.contacto-donde-estamo
   overflow-y: auto;
   overflow-x: hidden;
   column-gap: 10px;
-  height: calc(100% - 40px);
+  height: calc(100% - 55px);
   row-gap: 10px;
   align-items: center;
   justify-items: center;
@@ -324,7 +324,7 @@ main.contacto-donde-estamos section.donde-estamos h2, main.contacto-donde-estamo
   grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
   overflow-y: auto;
   column-gap: 10px;
-  height: calc(100% - 40px);
+  height: calc(100% - 55px);
   padding: 10px;
   row-gap: 10px;
   align-items: center;
@@ -394,6 +394,7 @@ main.contacto-donde-estamos section.donde-estamos h2, main.contacto-donde-estamo
   flex-direction: row;
   justify-content: space-between;
   padding: 0 10px;
+  flex-wrap: wrap;
 }
 .botonera form {
   display: flex;

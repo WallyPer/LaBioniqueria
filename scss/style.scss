@@ -341,7 +341,7 @@ main.contacto-donde-estamos section {
     overflow-y: auto;
     overflow-x: hidden;
     column-gap: 10px;
-    height: calc(100% - 40px);
+    height: calc(100% - 55px);
     row-gap: 10px;
     align-items: center;
     justify-items: center;
@@ -362,7 +362,7 @@ main.contacto-donde-estamos section {
     grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
     overflow-y: auto;
     column-gap: 10px;
-    height: calc(100% - 40px);
+    height: calc(100% - 55px);
     padding: 10px;
     row-gap: 10px;
     align-items: center;
@@ -437,11 +437,13 @@ main.contacto-donde-estamos section {
     @include flex-row;
     justify-content: space-between;
     padding: 0 10px;
+    flex-wrap: wrap;
 
     form {
         @include flex-row;
         align-items: center;
         height: 40px;
+        
         input {
             height: 40px;
             width: 350px;
